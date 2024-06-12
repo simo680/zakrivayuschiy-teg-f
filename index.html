@@ -318,24 +318,46 @@
           </div>
         </article>
       </section>
-    </main>
-    <section class="button-save">
-      <button
-        class="button-save__title"
-        type="button"
-        onclick="window['dialog-id'].showModal();"
-        aria-controls="dialog-id"
-      >
-        <span>Сохранить на память</span>
-      </button>
-      <dialog id="dialog-id" class="button-save__alert">
-        <h2>Подпишитесь на нашу рассылку</h2>
-        <form>
-          <label>Вставьте дискету, чтобы продолжить</label>
-          <button type="submit">ОК</button>
+
+      <div class="button-save">
+        <button
+          class="button-save__title"
+          type="button"
+          onclick="window['dialog-id'].showModal();"
+          aria-controls="dialog-id"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="21"
+            fill="none"
+            viewBox="0 0 21 21"
+            class="floppy"
+          >
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span>Сохранить на память</span>
+        </button>
+      </div>
+      <dialog id="dialog-id" class="alert">
+        <form class="alert__form">
+          <div class="alert__form__card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              fill="none"
+              viewBox="0 0 21 21"
+              class="floppy"
+            >
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <label>Вставьте дискету, чтобы продолжить</label>
+          </div>
+          <button class="alert__submit" type="submit">ОК</button>
         </form>
       </dialog>
-    </section>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
