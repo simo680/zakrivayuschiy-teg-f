@@ -15,6 +15,152 @@
 */
 
 .page {
+  color: var(--accent-color);
+  font-family: "Inter", sans-serif;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin: 100px auto;
+  border: 2px solid var(--accent-color);
+  padding: 136px 0 25px 0;
+  font-family: var(--font-secondary, sans-serif);
+  font-weight: var(--fw-pressstart2p-title);
+  background-color: var(--bg-color);
+  max-inline-size: 696px;
+}
+
+.header__logo {
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  line-height: 65px;
+  text-transform: uppercase;
+}
+
+.header__title {
+  font-weight: var(--fw-pressstart2p-title);
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+
+
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.theme-menu__button {
+  position: relative;
+  border: none;
+  font-weight: var(--fw-pressstart2p-title);
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.theme-menu__button::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+}
+
+.theme-menu__button::before {
+
+
+}
+
+.card__list {
+  display: grid;
+  gap: 54px;
+  margin: 0 auto;  
+  max-inline-size: 696px;
+}
+
+.card {
+  border: 2px solid var(--accent-color);
+  background-color: var(--bg-color); 
+}
+
+.card__title {
+  padding-inline-start: 10px;
+  padding-block-start: 3px;
+  padding-block-end: 3px;
+  font-weight: var(--fw-inter-title);
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.card__images > img {
+  width: 100%;
+  border-block: 4px solid var(--accent-color, #000);
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1/1;
+}
+
+.card__content__text {
+  display: grid;
+  gap: 27px;
+  padding: 25px;
+  font-weight: var(--fw-inter-text);
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.card__btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+  margin-inline-end: 25px;
+  margin-block-end: 25px;
+  font-family: var(--accent-font), sans-serif;
+}
+
+.card__btn__Like {
+  position: relative;
+  width: 127px;
+  height: 34px;
+  border: none;
+  padding: 9px 17px;
+  outline: 2px solid var(--accent-color, #000);
+  background-color: transparent;
+}
+
+.card__btn__like__name {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 14px;
+  line-height: 12.6px;
+}
+
+
+.button-save {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-block-start: 52px;
+  margin-block-end: 105px;
+  max-inline-size: 697px;
+}
+
+.button-save__title {
+  border: 2px solid var(--accent-color, #000);
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: var(--fw-pressstart2p-title, 400);
+  font-size: 14px;
+  line-height: 12.6px;
+  background-color: var(--bg-color);
+  min-block-size: 51px;
 }

@@ -4,3 +4,111 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+  --bg-color: #fff;
+  --accent-color: #000;
+  --fw-inter-title: 700;
+  --fw-inter-text: 400;
+  --fw-pressstart2p-title: 400;
+  --fw-pressstart2p-btn: 400;
+  --gradient-primary: #e7e7e7;
+  --graient-secondary: #1a1a1a;
+  --border-header-color: #000;
+  --sparks-heart-color: #f00;
+  --heart-color: #f00;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(
+      180deg,
+      var(--gradient-primary, #e7e7e7),
+      0.01%,
+      var(--gradient-secondary, #1a1a1a) 100%
+    );
+}
+
+:root.theme-dark {
+  --bg-color: #000;
+  --accent-color: #00cc14;
+  --fw-inter-title: 785;
+  --fw-inter-text: 465;
+  --fw-pressstart2p-title: 400;
+  --fw-pressstart2p-btn: 400;
+  --gradient-primary: #007f0c;
+  --graient-secondary: #004306;
+  --border-header-color: #000;
+  --sparks-heart-color: #f00;
+  --heart-color: #f00;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      #000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+    linear-gradient(
+      180deg,
+      var(--gradient-primary, #007f0c),
+      0.01%,
+      var(--gradient-secondary, #004306) 100%
+    );
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff;
+    --accent-color: #000;
+    --fw-inter-title: 700;
+    --fw-inter-text: 400;
+    --fw-pressstart2p-title: 400;
+    --fw-pressstart2p-btn: 400;
+    --gradient-primary: #e7e7e7;
+    --graient-secondary: #1a1a1a;
+    --border-header-color: #000;
+    --sparks-heart-color: #f00;
+    --heart-color: #f00;
+    --background-image: repeating-linear-gradient(
+        90deg,
+        #d3d3d3 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(
+        180deg,
+        var(--gradient-primary, #e7e7e7),
+        0.01%,
+        var(--gradient-secondary, #1a1a1a) 100%
+      );
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --accent-color: #00cc14;
+    --fw-inter-title: 785;
+    --fw-inter-text: 485;
+    --fw-pressstart2p-title: 400;
+    --fw-pressstart2p-btn: 400;
+    --gradient-primary: #007f0c;
+    --graient-secondary: #004306;
+    --border-header-color: #00cc14;
+    --sparks-heart-color: #f00;
+    --heart-color: #f00;
+    --background-image: repeating-linear-gradient(
+        90deg,
+        #000 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+      linear-gradient(
+        180deg,
+        var(--gradient-primary, #007f0c),
+        0.01%,
+        var(--gradient-secondary, #004306) 100%
+      );
+  }
+}
