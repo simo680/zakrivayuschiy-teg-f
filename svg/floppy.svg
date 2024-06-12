@@ -1,8 +1,7 @@
 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-<symbol
-    id="floppy"
+<symbol id="floppy"
   stroke="currentColor"
-  fill="currentCollor"
+  fill="currentColor"
 >
 <rect width="1.61538" height="1.61538" fill="#00CC14"/>
 <rect y="1.61523" width="1.61538" height="1.61538" fill="#00CC14"/>

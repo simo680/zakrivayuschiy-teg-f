@@ -57,34 +57,6 @@
     );
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #fff;
-    --accent-color: #000;
-    --fw-inter-title: 700;
-    --fw-inter-text: 400;
-    --fw-pressstart2p-title: 400;
-    --fw-pressstart2p-btn: 400;
-    --gradient-primary: #e7e7e7;
-    --graient-secondary: #1a1a1a;
-    --border-header-color: #000;
-    --sparks-heart-color: #f00;
-    --heart-color: #f00;
-    --background-image: repeating-linear-gradient(
-        90deg,
-        #d3d3d3 0 2px,
-        transparent 2px 4px
-      ),
-      repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
-      linear-gradient(
-        180deg,
-        var(--gradient-primary, #e7e7e7),
-        0.01%,
-        var(--gradient-secondary, #1a1a1a) 100%
-      );
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000;
