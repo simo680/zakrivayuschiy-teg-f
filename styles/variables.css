@@ -12,8 +12,10 @@
   --gradient-primary: #e7e7e7;
   --graient-secondary: #1a1a1a;
   --border-header-color: #000;
+  --before-title-btn: #fff;
   --sparks-heart-color: #f00;
-  --heart-color: #f00;
+  --heart-color: #000;
+  --active-heart-color: #f00;
   --background-image: repeating-linear-gradient(
       90deg,
       #d3d3d3 0 2px,

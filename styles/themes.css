@@ -14,9 +14,11 @@
   --fw-pressstart2p-btn: 400;
   --gradient-primary: #e7e7e7;
   --graient-secondary: #1a1a1a;
+  --before-title-btn: #fff;
   --border-header-color: #000;
   --sparks-heart-color: #f00;
-  --heart-color: #f00;
+  --heart-color: #000;
+  --active-heart-color: #f00;
   --background-image: repeating-linear-gradient(
       90deg,
       #d3d3d3 0 2px,
@@ -40,9 +42,11 @@
   --fw-pressstart2p-btn: 400;
   --gradient-primary: #007f0c;
   --graient-secondary: #004306;
+  --before-title-btn: #00cc14;
   --border-header-color: #000;
   --sparks-heart-color: #f00;
-  --heart-color: #f00;
+  --heart-color: #00cc14;
+  --active-heart-color: #f00;
   --background-image: repeating-linear-gradient(
       90deg,
       #000 0 2px,
@@ -62,14 +66,16 @@
     --bg-color: #000;
     --accent-color: #00cc14;
     --fw-inter-title: 785;
-    --fw-inter-text: 485;
+    --fw-inter-text: 465;
     --fw-pressstart2p-title: 400;
     --fw-pressstart2p-btn: 400;
     --gradient-primary: #007f0c;
     --graient-secondary: #004306;
+    --before-title-btn: #00cc14;
     --border-header-color: #00cc14;
     --sparks-heart-color: #f00;
-    --heart-color: #f00;
+    --heart-color: #00cc14;
+    --active-heart-color: #f00;
     --background-image: repeating-linear-gradient(
         90deg,
         #000 0 2px,
