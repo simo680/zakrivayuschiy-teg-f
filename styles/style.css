@@ -80,7 +80,7 @@
 .theme-menu__button[disabled]::before {
   content: "▶";
   position: absolute;
-  left: -20px;
+  inset-inline-start: -20px;
   opacity: 1;
   animation: arrow 0.5s infinite alternate ease-in-out;
   pointer-events: none;
@@ -196,6 +196,13 @@
   inset-block-start: 25px;
   inset-inline-end: 25px;
   mix-blend-mode: hard-light;
+}
+
+@media screen and (max-width: 375px) {
+  .watermark {
+    inset-block-start: 23px;
+    inset-inline-end: 11px;
+  }
 }
 
 .card__content {
