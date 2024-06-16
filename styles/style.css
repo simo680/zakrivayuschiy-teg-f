@@ -193,7 +193,7 @@
   font-family: var(--font-secondary, fantasy);
   font-size: 14px;
   text-shadow: 0 0 1px var(--bg-color);
-  inset-block-start: 30px;
+  inset-block-start: 25px;
   inset-inline-end: 25px;
   mix-blend-mode: hard-light;
 }
