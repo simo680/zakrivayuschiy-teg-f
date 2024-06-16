@@ -8,27 +8,24 @@
 :root.theme-light {
   --bg-color: #fff;
   --accent-color: #000;
-  --fw-inter-title: 700;
-  --fw-inter-text: 400;
-  --fw-pressstart2p-title: 400;
-  --fw-pressstart2p-btn: 400;
+  --fw-main-title: 700;
+  --fw-main-text: 400;
   --gradient-primary: #e7e7e7;
-  --graient-secondary: #1a1a1a;
+  --gradient-secondary: #1a1a1a;
   --before-title-btn: #fff;
   --border-header-color: #000;
-  --sparks-heart-color: #f00;
+  --floppy-fill: #fff;
   --heart-color: #000;
   --active-heart-color: #f00;
   --background-image: repeating-linear-gradient(
-      90deg,
+      to right,
       #d3d3d3 0 2px,
       transparent 2px 4px
     ),
-    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(
-      180deg,
-      var(--gradient-primary, #e7e7e7),
-      0.01%,
+      to bottom,
+      var(--gradient-primary, #e7e7e7) 0.01%,
       var(--gradient-secondary, #1a1a1a) 100%
     );
 }
@@ -36,27 +33,24 @@
 :root.theme-dark {
   --bg-color: #000;
   --accent-color: #00cc14;
-  --fw-inter-title: 785;
-  --fw-inter-text: 465;
-  --fw-pressstart2p-title: 400;
-  --fw-pressstart2p-btn: 400;
+  --fw-main-title: 785;
+  --fw-main-text: 465;
   --gradient-primary: #007f0c;
-  --graient-secondary: #004306;
+  --gradient-secondary: #004306;
   --before-title-btn: #00cc14;
   --border-header-color: #000;
-  --sparks-heart-color: #f00;
+  --floppy-fill: #00cc14;
   --heart-color: #00cc14;
   --active-heart-color: #f00;
   --background-image: repeating-linear-gradient(
-      90deg,
+      to right,
       #000 0 2px,
       transparent 2px 4px
     ),
-    repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
     linear-gradient(
-      180deg,
-      var(--gradient-primary, #007f0c),
-      0.01%,
+      to bottom,
+      var(--gradient-primary, #007f0c) 0.01%,
       var(--gradient-secondary, #004306) 100%
     );
 }
@@ -65,27 +59,24 @@
   :root {
     --bg-color: #000;
     --accent-color: #00cc14;
-    --fw-inter-title: 785;
-    --fw-inter-text: 465;
-    --fw-pressstart2p-title: 400;
-    --fw-pressstart2p-btn: 400;
+    --fw-main-title: 785;
+    --fw-main-text: 465;
     --gradient-primary: #007f0c;
-    --graient-secondary: #004306;
+    --gradient-secondary: #004306;
     --before-title-btn: #00cc14;
     --border-header-color: #00cc14;
-    --sparks-heart-color: #f00;
+    --floppy-fill: #00cc14;
     --heart-color: #00cc14;
     --active-heart-color: #f00;
     --background-image: repeating-linear-gradient(
-        90deg,
+        to right,
         #000 0 2px,
         transparent 2px 4px
       ),
-      repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
       linear-gradient(
-        180deg,
-        var(--gradient-primary, #007f0c),
-        0.01%,
+        to bottom,
+        var(--gradient-primary, #007f0c) 0.01%,
         var(--gradient-secondary, #004306) 100%
       );
   }
