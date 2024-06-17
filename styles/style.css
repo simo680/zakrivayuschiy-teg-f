@@ -15,7 +15,7 @@
 
 .page {
   color: var(--accent-color);
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-main, sans-serif);
   background-image: var(--background-image);
   background-size: cover;
   background-attachment: fixed;
@@ -223,7 +223,6 @@
   display: flex;
   justify-content: end;
   gap: 6px;
-  font-family: var(--accent-font), sans-serif;
   transition: 0.3s ease;
 }
 
@@ -252,7 +251,7 @@
   align-items: center;
   border: 2px solid var(--accent-color);
   overflow: hidden;
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary, fantasy);
   font-size: 14px;
   line-height: 12.6px;
   background-color: var(--bg-color);
@@ -336,7 +335,7 @@
   border: 2px solid var(--accent-color);
   padding: 30px;
   color: var(--accent-color);
-  font-family: var(--font-secondary), sans-serif;
+  font-family: var(--font-secondary, fantasy);
   background-color: var(--bg-color);
   max-inline-size: 353px;
 }
@@ -349,7 +348,7 @@
 
 .alert::backdrop {
   opacity: 75%;
-  background-color: var(--bg-color);
+  background-color: #000;
 }
 
 .alert__form__card {
